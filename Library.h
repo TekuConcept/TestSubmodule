@@ -2,6 +2,7 @@
 
 public class Library {
 	public:
-		void sayHello();
-		void doMath(int a, int b);
+		static void sayHello();
+		static void doMath(int a, int b);
+		static void sayGoodbye();
 };

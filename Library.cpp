@@ -1,7 +1,11 @@
 #include "Library.h"
 
 void Library::sayHello() {
-	std::cout << "Hello World!";
+	std::cout << "Hello World!\n";
+}
+
+void Library::sayGoodbye() {
+	std::cout << "Goodbye World!\n";
 }
 
 void Library::doMath(int a, int b) {
